@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <section class="cart">
+      <h2>Shopping Cart</h2>
+      <p class="items-count">3 Items</p>
+      <div class="cart-header">
+        <span>PRODUCT DETAILS</span>
+        <span>QUANTITY</span>
+        <span>PRICE</span>
+        <span>TOTAL</span>
+      </div>
+
+      <div class="cart-item">
+        <div class="product">
+          <img src="" alt="Fifa 19">
+          <div>
+            <p><strong>Fifa 19</strong></p>
+            <p class="platform">PS4</p>
+            <p class="remove">Remove</p>
+          </div>
+        </div>
+        <div class="quantity">
+          <button>-</button>
+          <input type="text" value="2"  >
+          <button>+</button>
+        </div>
+        <div class="price">£44.00</div>
+        <div class="total">£88.00</div>
+      </div>
+
+      <div class="cart-item">
+        <div class="product">
+          <img src="" alt="Glacier White">
+          <div>
+            <p><strong>Glacier White 500GB</strong></p>
+            <p class="platform">PS4</p>
+            <p class="remove">Remove</p>
+          </div>
+        </div>
+        <div class="quantity">
+          <button>-</button>
+          <input type="text" value="1">
+          <button>+</button>
+        </div>
+        <div class="price">£249.99</div>
+        <div class="total">£249.99</div>
+      </div>
+
+      <div class="cart-item">
+        <div class="product">
+          <img src="" alt="Platinum Headset">
+          <div>
+            <p><strong>Platinum Headset</strong></p>
+            <p class="platform">PS4</p>
+            <p class="remove">Remove</p>
+          </div>
+        </div>
+        <div class="quantity">
+          <button>-</button>
+          <input type="text" value="1"  >
+          <button>+</button>
+        </div>
+        <div class="price">£119.99</div>
+        <div class="total">£119.99</div>
+      </div>
+
+      <a href="#" class="continue-shopping">← Continue Shopping</a>
+    </section>
+
+    <div class="summary">
+      <h2>Order Summary</h2>
+      <div class="summary-line">
+        <span>ITEMS 3</span>
+        <span>£457.98</span>
+      </div>
+      <div class="shipping">
+        <label for="shipping">SHIPPING</label>
+        <select id="shipping">
+          <option>Standard Delivery - £5.00</option>
+        </select>
+      </div>
+      <div class="promo">
+        <label for="promo">PROMO CODE</label>
+        <input type="text" id="promo" placeholder="Enter your code">
+        <button class="apply">APPLY</button>
+      </div>
+      <div class="summary-line total">
+        <span>TOTAL COST</span>
+        <span>£462.98</span>
+      </div>
+      <button class="checkout">CHECKOUT</button>
+    </div>
+  </div>
+</body>
+</html>
