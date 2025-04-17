@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav-links{
+  display: flex;
+  gap: 20px;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.logo{
+  margin-left: 20px;
+}
+
+.btns{
+  margin-right: 20px;
+}
+
+#signup{
+  background-color: orangered;
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+}
+
+#signin{
+  background-color: white;
+  border-color: black;
+  padding: 10px;
+  border-radius: 50px;
+  color: black;
+}
+
+#msg{
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.orange-text {
+  color: orangered;
+  font-weight: 700;
+}
+
+#sub-msg{
+  margin-left: 20px;
+}
+
+#order-now{
+  background-color: orangered;
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+}
+
+#learn-more{
+  background-color: white;
+  border-color: black;
+  padding: 10px;
+  border-radius: 50px;
+  color: black;
+}
+
+.cta{
+  margin-left: 20px;
+}
+
+.parent{
+  display: flex;
+  justify-content: space-between;
+}
+
+.burger{
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+
+.popular-items{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+#orange-text{
+  font-weight: 500;
+}
+#popular-msg{
+  margin-top: 20px;
+}
+#sub-popular-msg{
+  font-size: 10px;
+}
+.list-of-items{
+  margin-left: 20px;
+}
+
+.order-now{
+  background-color: orangered;
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+}
+
+.item1{
+  background-color: brown;
+  height: 100px;
+  width: 100px;
+}
