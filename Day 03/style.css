@@ -1,0 +1,94 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.btns {
+    margin-right: 20px;
+}
+.main-page{
+    /* background-color: aquamarine; */
+    width: 2000px;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+#msg{
+    margin-left: 20px;
+}
+#sub-msg{
+    margin-left: 20px;
+}
+.parent {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta {
+    margin-left: 20px;
+}
+
+#cv-download{
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border-style: none;
+    box-shadow: 10px;
+}
+
+.man{
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+#my-services-msg{
+    color: orangered;
+    text-align: center;
+}
+
+#what-we-do{
+    color: blue;
+    text-align: center;
+}
+
+.list-of-what-we-do{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#man-finger{
+    margin-left: 50px;
+}
+
+
+.qualities-parent{
+    display: flex;
+    justify-content: center;
+}
