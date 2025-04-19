@@ -1,0 +1,137 @@
+body{
+    margin:0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.no-of-orders{
+    font-size:20px;
+    font-weight: 500;
+}
+
+.dash{
+    margin-left: 100px;
+}
+
+.another-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-btn{
+    padding: 20px;
+    height: 10px;
+    border-radius: 30%;
+    border: none;
+}
+
+
+.products-parent{
+    display: flex;
+    margin-top: 20px;
+}
+
+.get-off{
+    margin-left: 20px;
+    background-color: aquamarine;
+    height: 90px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+#off-msg{
+    margin-top: 10px;
+}
+
+#get-discount{
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: solid white;
+}
+
+.winter{
+    background-color: bisque;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 90px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.two{
+    display: flex;
+}
+.wmx{
+    background-color: aqua;
+    height: 200px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.jogger{
+    background-color: aqua;
+    height: 200px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+#price{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20%;
+}
+
+.three{
+    height:100px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+
+#avail-offers{
+    padding: 10px;
+    background-color: azure;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.four{
+    height:100px;
+    width: 100px;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#see-all{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.five{
+    background-color: azure;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 90px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+}
