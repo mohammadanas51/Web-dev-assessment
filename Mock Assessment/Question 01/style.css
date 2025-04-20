@@ -1,0 +1,88 @@
+body{
+    background-color: gainsboro;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-three-items{
+    display: flex;
+    gap: 20px;
+}
+
+.second-three-items{
+    display: flex;
+    gap: 20px;
+}
+
+.checkout-page{
+    width: 45%;
+    
+    
+}
+
+.input-field{
+    border-radius: 5px;
+    border: none;
+}
+
+.personal-information{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.payment-option{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-details{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.checkout-parent{
+    display: flex;
+}
+
+.order-details{
+    margin-left: 30px;
+    width: 500px;
+}
+
+.sub-total{
+    display: flex;
+    justify-content: space-between;
+}
+
+#purchase{
+    padding: 5px;
+    width: 490px;
+    background-color: rgb(32, 177, 32);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.purchase-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+
+.name-and-cross{
+    display: flex;
+    justify-content: space-between;
+}
+
+.weight-and-price{
+    display:flex;
+    justify-content: space-between;
+}

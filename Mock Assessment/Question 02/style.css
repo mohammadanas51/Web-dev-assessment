@@ -1,0 +1,96 @@
+.parent{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.right{
+    width: 50%;
+    background-color:white;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.first-and-last-name{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.input-field-one{
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+}
+
+
+.input-field-two{
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.bd{
+    margin-top: 10px;
+    margin-left: 180px;
+}
+
+.birthday-selector{
+    display: flex;
+    gap: 50px;
+    margin-left: 180px;
+ }
+
+
+.input-field-three{
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 50px;
+    margin-top: 10px;
+}
+
+
+.gener{
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+
+.choices-parent{
+    display: flex;
+
+}
+
+.agree{
+    margin-left: 180px;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#signup{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
