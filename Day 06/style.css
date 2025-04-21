@@ -1,0 +1,156 @@
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#pic{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+#search-tasks{
+    margin-top: 20px;
+}
+
+#last-added-msg{
+    margin-left: 30px;
+}
+
+
+.task1{
+    height: 70px;
+    width: 150px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border-style: solid ;    
+}
+
+#some{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.last-added-tasks{
+    display: flex;
+}
+
+
+#tasks-lists{
+    margin-left: 30px;
+}
+
+.task2{
+    border : 3px solid black;
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.percentage{
+    margin-left: 10px;
+    border : 3px solid red;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+#btn-create-task{
+    margin-left: 120px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+
+.create-new-task{
+    border : 2px solid black;
+    margin-top: 20px;
+    height: 650px;
+    width: 300px;
+    border-radius: 10%;    
+}
+
+#create-new-task{
+    text-align: center;
+}
+
+.parent-new-task{
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+#orange-text{
+    color: orangered;
+}
+
+.input-field{
+    border : 2px solid black;
+    border-radius: 15%;
+}
+
+
+.high{
+    background-color: red;
+    padding: 3px;
+    color: white;
+}
+
+.medium{
+    background-color: yellow;
+    padding: 3px;
+    color: black;
+}
+
+.low{
+    background-color: green;
+    padding: 3px;
+    color: white;
+}
+
+.priority-parent{
+    display: flex;
+    justify-content: space-around;
+}
+
+#add-sub-btn{
+    padding: 3px;
+    border-radius: 10px;
+    background-color: orange;
+    border: none;
+    margin-top: 10px;
+}
+
+
+#add-task{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+#clear{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.edit-task{
+    margin-top: 100px;
+}
