@@ -1,0 +1,97 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-and-search, .noti-settings-profile{
+    display: flex;
+    gap: 10px;
+}
+
+
+.logo{
+    padding: 10px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 999px;
+    padding: 8px 16px;
+    width: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+
+.sidebar{
+    width:15%;
+}
+
+.sidebar-items{
+    margin-top: 10px;
+}
+
+
+.content{
+    display: flex;
+}
+
+.car-display{
+    margin-top: 30px;
+    background-color: gainsboro;
+    width: 100%;
+}
+
+
+.pick-up{
+    background-color: white;
+    border-radius: 20px;
+    width: 35%;
+    margin-left: 10px;
+}
+
+#msg-pic{
+    margin-left: 10px;
+    
+}
+
+.loc-dat-tim{
+    display: flex;
+    gap: 50px;
+}
+
+.location{
+    margin-left: 10px;
+}
+
+.pick-and-drop{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cars{
+    display: flex;
+    flex-wrap: wrap;
+}
+.car-one{
+    background-color: white;
+    height: 80px;
+    width: 150px;
+    padding: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#show-more{
+    background-color: blueviolet;
+    border: none;   
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 5px;
+}
