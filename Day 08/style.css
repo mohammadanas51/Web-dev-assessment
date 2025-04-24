@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #f0f4fb;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #163d7d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    flex-grow: 1;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+  
+  .sidebar li.active {
+    background-color: #275caa;
+    border-radius: 5px;
+  }
+  
+  .logout {
+    margin-top: auto;
+    padding: 10px;
+    background: #fff;
+    color: #163d7d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 2rem;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-profile input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+  }
+  
+  .course-duration {
+    margin: 2rem 0;
+  }
+  
+  .progress-bar {
+    background: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+  
+  .progress {
+    background: #275caa;
+    height: 100%;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .stats div {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stats span {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .teachers {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .teacher-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    flex: 1;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teacher-card button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: #275caa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .events {
+    margin-top: 2rem;
+  }
+  
+  .event-cards {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+  }
+  
+  .event {
+    min-width: 180px;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+  

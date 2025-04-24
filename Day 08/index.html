@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>🎓 SMART</h2>
+      <ul>
+        <li class="active">Dashboard</li>
+        <li>Courses</li>
+        <li>Group</li>
+        <li>Homework</li>
+        <li>Grades</li>
+        <li>Schedule</li>
+        <li>Message</li>
+        <li>Settings</li>
+      </ul>
+      <button class="logout">Log out</button>
+    </aside>
+
+    <main class="main-content">
+      <header>
+        <h1>Hi, Amanda</h1>
+        <div class="search-profile">
+          <input type="text" placeholder="Search" />
+          <img src="https://via.placeholder.com/40" alt="Profile" class="profile-pic" />
+        </div>
+      </header>
+
+      <section class="course-duration">
+        <h3>Course duration</h3>
+        <div class="progress-bar"><div class="progress" style="width: 73%"></div></div>
+        <div class="stats">
+          <div>GPA <span>89%</span></div>
+          <div>Curriculum <span>93%</span></div>
+          <div>Scientific projects <span>80%</span></div>
+          <div>Class Attendance <span>99%</span></div>
+        </div>
+      </section>
+
+      <section class="teachers">
+        <div class="teacher-card">
+          <h4>Emma Johnson</h4>
+          <p>Fundamentals of AI · 11:30 AM</p>
+          <button>Join</button>
+        </div>
+        <div class="teacher-card">
+          <h4>Olivia Smith</h4>
+          <p>NLP · 9:30 AM</p>
+          <button>Join</button>
+        </div>
+        <div class="teacher-card">
+          <h4>James Anderson</h4>
+          <p>Machine Learning · 1:30 PM</p>
+          <button>Join</button>
+        </div>
+      </section>
+
+      <section class="events">
+        <h3>Upcoming events</h3>
+        <div class="event-cards">
+          <div class="event">AI Battle · Sat, 22</div>
+          <div class="event">AI Hackathon · Mon, 24</div>
+          <div class="event">Workshop · Wed, 26</div>
+          <div class="event">Lecture · Thu, 3</div>
+          <div class="event">Company Visit · Sat, 5</div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
