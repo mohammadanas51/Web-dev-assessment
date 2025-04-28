@@ -1,0 +1,190 @@
+.parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.screenOne {
+    border: solid 3px black;
+    height: 745px;
+    width: 350px;
+    border-radius: 40px;
+}
+
+.course {
+    margin-left: 20px;
+}
+
+
+.image {
+    height: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 2px black;
+    margin-top: 20px;
+}
+
+#courseMsg {
+    margin-left: 10px;
+}
+
+.photo {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.aboutAuthor {
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+/* .aboutAuthorOne {
+    display: flex;
+    gap: 20px;
+} */
+
+
+.noa{
+    display: flex;
+    justify-content: space-around;
+}
+
+#read-more{
+    color: blue;
+}
+
+.enroll-course{
+    background-color: violet;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.child{
+    background-color: violet;
+    height: 50px;
+    width: 70px;
+    border-radius: 20px;
+    text-align: center;
+}
+#data{
+    margin-top: 5px;
+}
+.details-lessons-reviews {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details, .lessons, .reviews {
+    border-bottom: 3px solid black;
+}
+
+.learning-parent {
+    margin-left: 10px;
+}
+
+.bottomNav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#lesson-msg {
+    margin-left: 20px;
+}
+
+
+.lesson-one {
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: pink;
+}
+
+.lesson-name {
+    margin-left: 10px;
+}
+
+#courseNameTwo {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.progress-and-mins {
+    display: flex;
+    gap: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.lesson-two {
+    margin-top: 20px;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: gainsboro;
+}
+
+.aboutAnotherAuthor {
+    display: flex;
+    gap: 20px;
+}
+
+.recentLesson {
+    margin-left: 20px;
+}
+
+.lessonParent {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.serialNumber {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.bottomNavSecond {
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-around;
+}
+
+
+.priceTag{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+
+.square{
+    border: 1px solid black;
+    height: 50px;
+    width: 70px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.ratings{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.totalRating{
+    text-align: center;
+}

@@ -1,0 +1,120 @@
+body{
+    background-color: gray;
+}
+.fromToDate{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.fromTo{
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.dateParent{
+    margin-right: 30px;
+}
+
+.sideBar{
+    margin-top: 20px;
+    background-color: white;
+    height: 1000px;
+    width: 300px;
+}
+
+.filterReset{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.reset{
+    margin-top: 10px;
+    color: red;
+}
+
+.line{
+    height: 0px;
+    width: 300px;
+    border: 1px solid red;
+}
+
+.filtersTxt{
+    margin-top: 10px;
+}
+
+.quota{
+    margin-top: 10px;
+}
+
+.quotaItemParent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.stnsParent{
+    display: flex;
+    gap: 30px;
+}
+
+.mainContainer{
+    display: flex;
+}
+
+
+.sortBy{
+    background-color: white;
+    height: 30px;
+    width: 1067px;
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dep{
+    color: red;
+}
+
+.nameDays{
+    display: flex;
+    justify-content: space-between;
+}
+
+.timingSchedule{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.trainDetails{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.trainInfo{
+    background-color: gainsboro;
+    height: 70px;
+    width: 125px;
+    margin-left: 20px;
+}
+
+.acCost{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.trainInfoParent{
+    display: flex;
+    gap: 30px;
+}
