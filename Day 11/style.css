@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e60000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.route {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 16px;
+    color: #666;
+}
+
+.search-btn {
+    background-color: #e60000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.filters {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.filters h3 {
+    margin-top: 0;
+}
+
+.clear-all {
+    background: none;
+    border: none;
+    color: #e60000;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-section h4 {
+    margin-bottom: 10px;
+}
+
+.filter-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.filter-section input[type="range"] {
+    width: 100%;
+}
+
+.price-range-values {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+}
+
+.bus-listings {
+    flex: 1;
+}
+
+.sort-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.sort-bar span {
+    font-weight: bold;
+}
+
+.sort-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+}
+
+.bus-count {
+    color: #e60000;
+    margin-bottom: 20px;
+}
+
+.bus-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bus-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.bus-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.rating {
+    color: #f5a623;
+}
+
+.timing {
+    text-align: center;
+}
+
+.timing p {
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.view-buses, .select-seats {
+    background-color: #e60000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.seats-available {
+    color: #666;
+    font-size: 14px;
+}

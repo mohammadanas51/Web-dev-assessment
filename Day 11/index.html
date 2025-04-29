@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">abhibus</div>
+        <nav>
+            <ul>
+                <li><a href="#">Buses</a></li>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Trains</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Track Ticket</a></li>
+                <li><a href="#">Need Help?</a></li>
+                <li><a href="#">Login/SignUp</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="search-bar">
+        <div class="route">
+            <span>Hyderabad</span> &rarr; <span>Bangalore</span>
+        </div>
+        <div class="date">27/04/2025</div>
+        <button class="search-btn">Search</button>
+    </div>
+
+    <div class="main-container">
+        <aside class="filters">
+            <h3>Filters</h3>
+            <button class="clear-all">Clear All</button>
+            <div class="filter-section">
+                <h4>Bus Type</h4>
+                <label><input type="checkbox"> AC</label>
+                <label><input type="checkbox"> Sleeper</label>
+                <label><input type="checkbox"> Seater</label>
+                <label><input type="checkbox"> Non AC</label>
+            </div>
+            <div class="filter-section">
+                <h4>Price Range</h4>
+                <input type="range" min="674" max="3999" value="674">
+                <div class="price-range-values">
+                    <span>₹674</span> - <span>₹3999</span>
+                </div>
+            </div>
+            <div class="filter-section">
+                <h4>Departure Time</h4>
+                <label><input type="checkbox"> Before 10 AM</label>
+                <label><input type="checkbox"> 10 AM - 5 PM</label>
+                <label><input type="checkbox"> 5 PM - 11 PM</label>
+                <label><input type="checkbox"> After 11 PM</label>
+            </div>
+        </aside>
+
+        <main class="bus-listings">
+            <div class="sort-bar">
+                <span>Sort by:</span>
+                <button>Price</button>
+                <button>Seats</button>
+                <button>Ratings</button>
+                <button>Arrival Time</button>
+                <button>Departure Time</button>
+            </div>
+            <div class="bus-count">Showing 241 Buses on this route</div>
+
+            <div class="bus-card">
+                <div class="bus-info">
+                    <img src="bus-logo.png" alt="TSRTC Logo" class="bus-logo">
+                    <div>
+                        <h4>TSRTC (Telangana State Road Transport Corporation)</h4>
+                        <p>23 Buses, 643 Seats Available</p>
+                    </div>
+                    <div class="rating">⭐ 3.9 (188.8K)</div>
+                </div>
+                <div class="price">From ₹761</div>
+                <button class="view-buses">View Buses</button>
+            </div>
+
+            <div class="bus-card">
+                <div class="bus-info">
+                    <div>
+                        <h4>Yolo Bus AD</h4>
+                        <p>Bharat Benz AC Sleeper (2 + 1)</p>
+                        <p>⭐ 4.6 (42522)</p>
+                    </div>
+                    <div class="timing">
+                        <p>00:15 <span>Hyderabad</span></p>
+                        <p>12:04 <span>Bangalore</span></p>
+                        <p>11h 49m</p>
+                    </div>
+                </div>
+                <div class="price">From ₹1,030</div>
+                <button class="select-seats">Select Seats</button>
+                <div class="seats-available">27 Seats Available</div>
+            </div>
+
+            <div class="bus-card">
+                <div class="bus-info">
+                    <div>
+                        <h4>SL Travels</h4>
+                        <p>2+1, Sleeper, NON-AC</p>
+                        <p>⭐ 4.3 (1823)</p>
+                    </div>
+                    <div class="timing">
+                        <p>19:00 <span>Hyderabad</span></p>
+                        <p>05:00 <span>Bangalore</span></p>
+                        <p>10h</p>
+                    </div>
+                </div>
+                <div class="price">From ₹1,509</div>
+                <button class="select-seats">Select Seats</button>
+                <div class="seats-available">15 Seats Available</div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
